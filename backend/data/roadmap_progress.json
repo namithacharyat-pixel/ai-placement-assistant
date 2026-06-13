@@ -7,7 +7,7 @@
       "company_name": "Google",
       "name": "Google",
       "created_at": "2026-06-13T16:28:29",
-      "updated_at": "2026-06-14T00:06:42",
+      "updated_at": "2026-06-14T00:38:37",
       "interview_date": "2026-06-16",
       "hours_per_day": 2,
       "current_round": "Group Discussion",
@@ -58,10 +58,33 @@
         ],
         "technologies": []
       },
-      "resume_match": null,
-      "missing_skills": [],
+      "resume_match": {
+        "ats_rating": 1,
+        "match_score": 0,
+        "matched_skills": [],
+        "missing_skills": [
+          "analytical thinking",
+          "problem-solving"
+        ],
+        "resume_suggestions": [
+          "Add a section on analytical thinking with examples of breaking down complex problems into manageable parts using DSA concepts.",
+          "Highlight problem-solving skills by describing a personal project where you applied DSA to resolve a real-world issue.",
+          "Include a statement on applying CS fundamentals to develop algorithmic solutions with a measurable outcome, such as 'improved algorithm efficiency by 30%'.",
+          "Quantify the impact of DSA skills on a project by mentioning 'reduced computational time by 25% through optimized data structures'.",
+          "Emphasize experience with data structures and algorithms by adding a 'Technical Skills' section with specific proficiency levels.",
+          "Describe a situation where you used analytical thinking to identify and resolve a technical issue, resulting in a positive outcome, such as 'resolved 90% of user-reported bugs'.",
+          "Add a personal project that demonstrates problem-solving skills, such as 'developed a sorting algorithm with a 50% reduction in time complexity'.",
+          "Highlight collaboration experience by mentioning 'worked with a team to solve complex problems using DSA, resulting in a 40% increase in team productivity'."
+        ],
+        "saved_at": "2026-06-13T19:08:15.491Z"
+      },
+      "missing_skills": [
+        "analytical thinking",
+        "problem-solving"
+      ],
       "weak_topics": [
-        "data structures"
+        "data structures",
+        "trees"
       ],
       "roadmap_data": {
         "days_remaining": 3,
@@ -461,6 +484,7 @@
       },
       "performance_history": [
         {
+          "completed_at": "2026-06-13T11:08:33.774Z",
           "recommendations": [
             "Review and practice data structures concepts, focusing on common interview questions and problems",
             "Solve 10-15 problems on arrays, linked lists, stacks, and queues to improve data structures fundamentals",
@@ -469,16 +493,32 @@
           ],
           "score": 33.33,
           "strong_topics": [],
-          "weak_topics": [
-            "data structures"
-          ],
           "topic": "data structures",
           "type": "mcq",
-          "completed_at": "2026-06-13T11:08:33.774Z"
+          "weak_topics": [
+            "data structures"
+          ]
+        },
+        {
+          "recommendations": [
+            "Review the basics of tree data structures, including types and traversal methods",
+            "Practice solving problems involving tree operations, such as insertion and deletion",
+            "Focus on understanding tree-related algorithms, including recursive and iterative approaches",
+            "Solve a variety of tree-based problems on platforms like LeetCode or HackerRank to improve problem-solving skills"
+          ],
+          "score": 0,
+          "strong_topics": [],
+          "weak_topics": [
+            "trees"
+          ],
+          "topic": "trees",
+          "type": "mcq",
+          "completed_at": "2026-06-13T19:08:37.757Z"
         }
       ],
       "assessments": [
         {
+          "completed_at": "2026-06-13T11:08:33.774Z",
           "recommendations": [
             "Review and practice data structures concepts, focusing on common interview questions and problems",
             "Solve 10-15 problems on arrays, linked lists, stacks, and queues to improve data structures fundamentals",
@@ -487,12 +527,27 @@
           ],
           "score": 33.33,
           "strong_topics": [],
-          "weak_topics": [
-            "data structures"
-          ],
           "topic": "data structures",
           "type": "mcq",
-          "completed_at": "2026-06-13T11:08:33.774Z"
+          "weak_topics": [
+            "data structures"
+          ]
+        },
+        {
+          "recommendations": [
+            "Review the basics of tree data structures, including types and traversal methods",
+            "Practice solving problems involving tree operations, such as insertion and deletion",
+            "Focus on understanding tree-related algorithms, including recursive and iterative approaches",
+            "Solve a variety of tree-based problems on platforms like LeetCode or HackerRank to improve problem-solving skills"
+          ],
+          "score": 0,
+          "strong_topics": [],
+          "weak_topics": [
+            "trees"
+          ],
+          "topic": "trees",
+          "type": "mcq",
+          "completed_at": "2026-06-13T19:08:37.757Z"
         }
       ]
     },
