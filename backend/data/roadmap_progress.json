@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "active_company_id": "sap-933b54d6",
+  "active_company_id": "google-29fed639",
   "companies": {
     "google-29fed639": {
       "id": "google-29fed639",
       "company_name": "Google",
       "name": "Google",
       "created_at": "2026-06-13T16:28:29",
-      "updated_at": "2026-06-13T16:39:57",
+      "updated_at": "2026-06-14T00:06:42",
       "interview_date": "2026-06-16",
       "hours_per_day": 2,
       "current_round": "Group Discussion",
@@ -369,7 +369,9 @@
       "completed_days": {
         "1-1": true,
         "1-2": true,
-        "1-3": true
+        "1-3": true,
+        "1-4": true,
+        "1-7": true
       },
       "daily_plan_progress": {
         "1-1": {
@@ -385,8 +387,8 @@
           "completed_at": "2026-06-13T11:09:57.710Z"
         },
         "1-4": {
-          "completed": false,
-          "completed_at": null
+          "completed": true,
+          "completed_at": "2026-06-13T18:36:40.470Z"
         },
         "1-5": {
           "completed": false,
@@ -397,8 +399,8 @@
           "completed_at": null
         },
         "1-7": {
-          "completed": false,
-          "completed_at": null
+          "completed": true,
+          "completed_at": "2026-06-13T18:36:42.218Z"
         },
         "2-1": {
           "completed": false,

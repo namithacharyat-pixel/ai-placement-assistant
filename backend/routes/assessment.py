@@ -83,12 +83,21 @@ def generate_coding():
         if not isinstance(difficulty, str) or not difficulty.strip():
             return jsonify({"error": "difficulty must be a non-empty string."}), 400
 
+        category = payload.get("category", "DSA")
+        company_name = payload.get("company_name")
+        language = payload.get("language", "java")
+
         question = _generator.generate_coding_question(
-            topic=topic.strip(),
-            difficulty=difficulty.strip(),
-        )
+            topic=topic,
+            difficulty=difficulty,
+            category=category,
+            company_name=company_name,
+            language=language
+            )
 
         return jsonify(question), 200
+    
+
 
     except ValueError as exc:
         return jsonify({"error": str(exc)}), 400
@@ -99,3 +108,73 @@ def generate_coding():
     except Exception:
         logger.exception("Unexpected error during coding question generation.")
         return jsonify({"error": "An unexpected error occurred during coding question generation."}), 500
+    
+
+@assessment_bp.post("/review")
+def review_solution():
+    """AI review of a coding solution."""
+    try:
+        payload = request.get_json(silent=True)
+
+        if payload is None or not isinstance(payload, dict):
+            return jsonify({"error": "Request body must be valid JSON."}), 400
+
+        question = payload.get("question")
+        solution = payload.get("solution")
+        language = payload.get("language")
+
+        if not question:
+            return jsonify({"error": "Missing question"}), 400
+
+        if not solution:
+            return jsonify({"error": "Missing solution"}), 400
+
+        if not language:
+            return jsonify({"error": "Missing language"}), 400
+
+        result = _generator.review_solution(
+            question=question,
+            user_solution=solution,
+            language=language,
+        )
+
+        return jsonify(result), 200
+
+    except ValueError as exc:
+        return jsonify({"error": str(exc)}), 400
+
+    except GroqConfigurationError as exc:
+        return jsonify({"error": str(exc)}), 500
+
+    except (AssessmentGeneratorError, GroqClientError) as exc:
+        return jsonify({"error": str(exc)}), 502
+
+    except Exception:
+        logger.exception("Unexpected error during solution review.")
+        return jsonify(
+            {"error": "An unexpected error occurred during review."}
+        ), 500
+    
+
+@assessment_bp.get("/recommendation/<company>")
+def recommendation(company: str):
+    """Get next recommended topic for a company."""
+    try:
+        result = _generator.generate_next_recommendation(company)
+
+        return jsonify(result), 200
+
+    except ValueError as exc:
+        return jsonify({"error": str(exc)}), 400
+
+    except GroqConfigurationError as exc:
+        return jsonify({"error": str(exc)}), 500
+
+    except (AssessmentGeneratorError, GroqClientError) as exc:
+        return jsonify({"error": str(exc)}), 502
+
+    except Exception:
+        logger.exception("Unexpected error during recommendation generation.")
+        return jsonify(
+            {"error": "An unexpected error occurred."}
+        ), 500
