@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Flask
+instance/
+*.log
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# Frontend build
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Temporary files
+*.tmp
+*.bak

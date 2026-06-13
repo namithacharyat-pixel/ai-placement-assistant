@@ -1,0 +1,6 @@
+Java
+SQL
+React
+Git
+Problem Solving
+OOP

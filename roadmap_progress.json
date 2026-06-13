@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "active_company_id": "google-634f11e5",
+  "companies": {
+    "google-634f11e5": {
+      "id": "google-634f11e5",
+      "name": "google",
+      "created_at": "2026-06-13T13:43:35",
+      "updated_at": "2026-06-13T13:43:50",
+      "jd_analysis": {
+        "skills": [
+          "problem-solving",
+          "communication",
+          "teamwork",
+          "adaptability"
+        ],
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "AWS",
+          "SQL"
+        ],
+        "dsa_topics": [
+          "arrays",
+          "linked lists",
+          "stacks",
+          "queues",
+          "trees",
+          "graphs",
+          "sorting",
+          "searching"
+        ],
+        "cs_topics": [
+          "OOP",
+          "DBMS",
+          "Computer Networks",
+          "Operating Systems"
+        ]
+      },
+      "jd_text": "Amazon Software Development Engineer\n\nRequirements:\n\nJava\nSpring Boot\nAWS\nSQL\n\nStrong Data Structures\nAlgorithms\nOOP\nDBMS\nComputer Networks",
+      "target_company": "google",
+      "interview_date": null,
+      "hours_per_day": 2.0,
+      "days_remaining": -1,
+      "missing_skills": [
+        "AWS",
+        "Spring Boot",
+        "adaptability",
+        "communication",
+        "problem-solving",
+        "teamwork"
+      ],
+      "weak_topics": [],
+      "interview_rounds": [
+        {
+          "name": "OA",
+          "status": "pending"
+        },
+        {
+          "name": "Technical",
+          "status": "pending"
+        },
+        {
+          "name": "HR",
+          "status": "pending"
+        },
+        {
+          "name": "Managerial",
+          "status": "pending"
+        }
+      ],
+      "current_round": "OA",
+      "roadmap": null,
+      "prioritized_topics": [],
+      "daily_plan_progress": {},
+      "assessments": [],
+      "resume_match": {
+        "match_score": 25,
+        "matched_skills": [
+          "Java",
+          "SQL"
+        ],
+        "missing_skills": [
+          "AWS",
+          "Spring Boot",
+          "adaptability",
+          "communication",
+          "problem-solving",
+          "teamwork"
+        ],
+        "resume_suggestions": [
+          "Add a brief description of a personal project utilizing AWS to demonstrate cloud computing experience and adaptability.",
+          "Highlight a team project where React and Java were used together to showcase full-stack development skills and teamwork.",
+          "Include a specific example of effective communication in a previous role, such as 'presented project updates to a team of 10 stakeholders' to address the communication gap.",
+          "Emphasize problem-solving skills by describing a complex Java or SQL problem overcome, with a measurable outcome, such as 'reduced bug resolution time by 30%'.",
+          "Create a new section for 'Soft Skills' and list adaptability, communication, and teamwork to directly address the missing skills from the job description.",
+          "Add a Spring Boot certification or course completion to the Education or Certifications section to demonstrate willingness to learn new technologies.",
+          "Describe a collaborative project where Git was used for version control, highlighting the ability to work effectively in a team environment and utilize problem-solving skills.",
+          "Quantify the impact of a project that involved Java, SQL, and React, such as 'increased application performance by 25% through optimization and problem-solving'."
+        ],
+        "saved_at": "2026-06-13T13:43:50"
+      }
+    }
+  }
+}

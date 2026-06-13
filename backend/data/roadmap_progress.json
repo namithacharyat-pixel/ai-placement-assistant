@@ -1,0 +1,542 @@
+{
+  "version": 1,
+  "active_company_id": "sap-933b54d6",
+  "companies": {
+    "google-29fed639": {
+      "id": "google-29fed639",
+      "company_name": "Google",
+      "name": "Google",
+      "created_at": "2026-06-13T16:28:29",
+      "updated_at": "2026-06-13T16:39:57",
+      "interview_date": "2026-06-16",
+      "hours_per_day": 2,
+      "current_round": "Group Discussion",
+      "interview_status": null,
+      "interview_rounds": [
+        {
+          "name": "OA",
+          "status": "pending"
+        },
+        {
+          "name": "Coding Round",
+          "status": "pending"
+        },
+        {
+          "name": "Technical Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Group Discussion",
+          "status": "pending"
+        },
+        {
+          "name": "HR Interview",
+          "status": "pending"
+        }
+      ],
+      "jd_text": "CS fundamentals",
+      "jd_analysis": {
+        "cs_topics": [
+          "algorithms",
+          "data structures",
+          "computer architecture",
+          "operating systems",
+          "object-oriented programming"
+        ],
+        "dsa_topics": [
+          "arrays",
+          "linked lists",
+          "stacks",
+          "queues",
+          "trees",
+          "graphs"
+        ],
+        "skills": [
+          "problem-solving",
+          "analytical thinking",
+          "communication"
+        ],
+        "technologies": []
+      },
+      "resume_match": null,
+      "missing_skills": [],
+      "weak_topics": [
+        "data structures"
+      ],
+      "roadmap_data": {
+        "days_remaining": 3,
+        "duration_weeks": 3,
+        "hours_per_day": 2,
+        "interview_date": "2026-06-16",
+        "roadmap_type": "Emergency Plan",
+        "target_company": "Google",
+        "weak_topics": [
+          "data structures"
+        ],
+        "weeks": [
+          {
+            "daily_plan": [
+              {
+                "day": 1,
+                "hours": 2,
+                "tasks": [
+                  "review array operations",
+                  "practice array-based problems"
+                ],
+                "topics": [
+                  "arrays"
+                ]
+              },
+              {
+                "day": 2,
+                "hours": 2,
+                "tasks": [
+                  "study linked list implementation",
+                  "solve linked list problems"
+                ],
+                "topics": [
+                  "linked lists"
+                ]
+              },
+              {
+                "day": 3,
+                "hours": 2,
+                "tasks": [
+                  "learn stack and queue operations",
+                  "practice stack and queue problems"
+                ],
+                "topics": [
+                  "stacks and queues"
+                ]
+              },
+              {
+                "day": 4,
+                "hours": 2,
+                "tasks": [
+                  "study tree data structure",
+                  "practice tree traversal"
+                ],
+                "topics": [
+                  "trees"
+                ]
+              },
+              {
+                "day": 5,
+                "hours": 2,
+                "tasks": [
+                  "learn graph representation",
+                  "practice graph traversal"
+                ],
+                "topics": [
+                  "graphs"
+                ]
+              },
+              {
+                "day": 6,
+                "hours": 2,
+                "tasks": [
+                  "study heap data structure",
+                  "practice heap operations"
+                ],
+                "topics": [
+                  "heaps"
+                ]
+              },
+              {
+                "day": 7,
+                "hours": 2,
+                "tasks": [
+                  "review all data structures",
+                  "practice mixed data structure problems"
+                ],
+                "topics": [
+                  "data structures review"
+                ]
+              }
+            ],
+            "focus_topics": [
+              "data structures",
+              "arrays",
+              "linked lists"
+            ],
+            "goals": [
+              "master array operations",
+              "understand linked list implementation"
+            ],
+            "title": "Data Structures Focus",
+            "week": 1
+          },
+          {
+            "daily_plan": [
+              {
+                "day": 1,
+                "hours": 2,
+                "tasks": [
+                  "study big-o notation",
+                  "practice time complexity analysis"
+                ],
+                "topics": [
+                  "algorithm analysis"
+                ]
+              },
+              {
+                "day": 2,
+                "hours": 2,
+                "tasks": [
+                  "practice implementing data structures",
+                  "review implementation details"
+                ],
+                "topics": [
+                  "data structure implementation"
+                ]
+              },
+              {
+                "day": 3,
+                "hours": 2,
+                "tasks": [
+                  "practice solving common problems",
+                  "review problem-solving strategies"
+                ],
+                "topics": [
+                  "common data structure problems"
+                ]
+              },
+              {
+                "day": 4,
+                "hours": 2,
+                "tasks": [
+                  "study advanced data structures",
+                  "practice advanced data structure problems"
+                ],
+                "topics": [
+                  "advanced data structures"
+                ]
+              },
+              {
+                "day": 5,
+                "hours": 2,
+                "tasks": [
+                  "review all data structures",
+                  "practice mixed data structure problems"
+                ],
+                "topics": [
+                  "data structure review"
+                ]
+              },
+              {
+                "day": 6,
+                "hours": 2,
+                "tasks": [
+                  "practice mock interview",
+                  "review interview performance"
+                ],
+                "topics": [
+                  "mock interview"
+                ]
+              },
+              {
+                "day": 7,
+                "hours": 2,
+                "tasks": [
+                  "review weak topics",
+                  "practice weak topic problems"
+                ],
+                "topics": [
+                  "weak topic review"
+                ]
+              }
+            ],
+            "focus_topics": [
+              "data structures",
+              "algorithm analysis"
+            ],
+            "goals": [
+              "master data structure implementation",
+              "understand algorithm time complexity"
+            ],
+            "title": "Data Structures Depth",
+            "week": 2
+          },
+          {
+            "daily_plan": [
+              {
+                "day": 1,
+                "hours": 2,
+                "tasks": [
+                  "review Google's interview process",
+                  "practice common interview questions"
+                ],
+                "topics": [
+                  "interview revision"
+                ]
+              },
+              {
+                "day": 2,
+                "hours": 2,
+                "tasks": [
+                  "practice mock interview",
+                  "review interview performance"
+                ],
+                "topics": [
+                  "mock interview"
+                ]
+              },
+              {
+                "day": 3,
+                "hours": 2,
+                "tasks": [
+                  "review all topics",
+                  "practice final mock interview"
+                ],
+                "topics": [
+                  "final review and mock"
+                ]
+              },
+              {
+                "day": 4,
+                "hours": 2,
+                "tasks": [
+                  "review interview strategy",
+                  "practice strategic problem-solving"
+                ],
+                "topics": [
+                  "interview strategy"
+                ]
+              },
+              {
+                "day": 5,
+                "hours": 2,
+                "tasks": [
+                  "practice mock interview",
+                  "review interview performance"
+                ],
+                "topics": [
+                  "mock interview"
+                ]
+              },
+              {
+                "day": 6,
+                "hours": 2,
+                "tasks": [
+                  "review common interview questions",
+                  "practice interview responses"
+                ],
+                "topics": [
+                  "interview revision"
+                ]
+              },
+              {
+                "day": 7,
+                "hours": 2,
+                "tasks": [
+                  "practice final mock interview",
+                  "review all topics one last time"
+                ],
+                "topics": [
+                  "final mock and review"
+                ]
+              }
+            ],
+            "focus_topics": [
+              "interview revision",
+              "mock interviews"
+            ],
+            "goals": [
+              "master interview skills",
+              "improve problem-solving under time pressure"
+            ],
+            "title": "Interview Revision and Mocks",
+            "week": 3
+          }
+        ]
+      },
+      "roadmap_topics": [
+        "data structures",
+        "arrays",
+        "linked lists",
+        "stacks",
+        "queues",
+        "trees",
+        "graphs",
+        "algorithms",
+        "computer architecture",
+        "operating systems",
+        "object-oriented programming",
+        "problem-solving",
+        "analytical thinking",
+        "communication"
+      ],
+      "completed_days": {
+        "1-1": true,
+        "1-2": true,
+        "1-3": true
+      },
+      "daily_plan_progress": {
+        "1-1": {
+          "completed": true,
+          "completed_at": "2026-06-13T11:09:55.808Z"
+        },
+        "1-2": {
+          "completed": true,
+          "completed_at": "2026-06-13T11:09:56.851Z"
+        },
+        "1-3": {
+          "completed": true,
+          "completed_at": "2026-06-13T11:09:57.710Z"
+        },
+        "1-4": {
+          "completed": false,
+          "completed_at": null
+        },
+        "1-5": {
+          "completed": false,
+          "completed_at": null
+        },
+        "1-6": {
+          "completed": false,
+          "completed_at": null
+        },
+        "1-7": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-1": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-2": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-3": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-4": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-5": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-6": {
+          "completed": false,
+          "completed_at": null
+        },
+        "2-7": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-1": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-2": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-3": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-4": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-5": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-6": {
+          "completed": false,
+          "completed_at": null
+        },
+        "3-7": {
+          "completed": false,
+          "completed_at": null
+        }
+      },
+      "performance_history": [
+        {
+          "recommendations": [
+            "Review and practice data structures concepts, focusing on common interview questions and problems",
+            "Solve 10-15 problems on arrays, linked lists, stacks, and queues to improve data structures fundamentals",
+            "Practice whiteboarding exercises to improve problem-solving skills and algorithmic thinking, particularly with data structures",
+            "Analyze and learn from mistakes made in the assessment, identifying areas of improvement in data structures"
+          ],
+          "score": 33.33,
+          "strong_topics": [],
+          "weak_topics": [
+            "data structures"
+          ],
+          "topic": "data structures",
+          "type": "mcq",
+          "completed_at": "2026-06-13T11:08:33.774Z"
+        }
+      ],
+      "assessments": [
+        {
+          "recommendations": [
+            "Review and practice data structures concepts, focusing on common interview questions and problems",
+            "Solve 10-15 problems on arrays, linked lists, stacks, and queues to improve data structures fundamentals",
+            "Practice whiteboarding exercises to improve problem-solving skills and algorithmic thinking, particularly with data structures",
+            "Analyze and learn from mistakes made in the assessment, identifying areas of improvement in data structures"
+          ],
+          "score": 33.33,
+          "strong_topics": [],
+          "weak_topics": [
+            "data structures"
+          ],
+          "topic": "data structures",
+          "type": "mcq",
+          "completed_at": "2026-06-13T11:08:33.774Z"
+        }
+      ]
+    },
+    "sap-933b54d6": {
+      "id": "sap-933b54d6",
+      "company_name": "SAP",
+      "name": "SAP",
+      "created_at": "2026-06-13T16:28:44",
+      "updated_at": "2026-06-13T16:28:44",
+      "interview_date": "2026-06-25",
+      "hours_per_day": 2.0,
+      "current_round": "OA",
+      "interview_status": null,
+      "interview_rounds": [
+        {
+          "name": "OA",
+          "status": "pending"
+        },
+        {
+          "name": "Coding Round",
+          "status": "pending"
+        },
+        {
+          "name": "Technical Interview",
+          "status": "pending"
+        },
+        {
+          "name": "Group Discussion",
+          "status": "pending"
+        },
+        {
+          "name": "HR Interview",
+          "status": "pending"
+        }
+      ],
+      "jd_text": "",
+      "jd_analysis": null,
+      "resume_match": null,
+      "missing_skills": [],
+      "weak_topics": [],
+      "roadmap_data": null,
+      "roadmap_topics": [],
+      "completed_days": {},
+      "daily_plan_progress": {},
+      "performance_history": [],
+      "assessments": []
+    }
+  }
+}

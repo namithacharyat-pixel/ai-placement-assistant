@@ -1,0 +1,14 @@
+Amazon Software Development Engineer
+
+Requirements:
+
+Java
+Spring Boot
+AWS
+SQL
+
+Strong Data Structures
+Algorithms
+OOP
+DBMS
+Computer Networks
